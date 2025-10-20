@@ -1,0 +1,82 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-20 19:31 +0530
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 19:31
+Completed NSE at 19:31, 0.00s elapsed
+Initiating NSE at 19:31
+Completed NSE at 19:31, 0.00s elapsed
+Initiating NSE at 19:31
+Completed NSE at 19:31, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 19:31
+Completed Parallel DNS resolution of 1 host. at 19:31, 0.01s elapsed
+Initiating SYN Stealth Scan at 19:31
+Scanning NithinRaj.Dlink (192.168.0.104) [1000 ports]
+Discovered open port 445/tcp on 192.168.0.104
+Discovered open port 139/tcp on 192.168.0.104
+Discovered open port 135/tcp on 192.168.0.104
+Completed SYN Stealth Scan at 19:31, 0.11s elapsed (1000 total ports)
+Initiating Service scan at 19:31
+Scanning 3 services on NithinRaj.Dlink (192.168.0.104)
+Completed Service scan at 19:31, 6.28s elapsed (3 services on 1 host)
+Initiating OS detection (try #1) against NithinRaj.Dlink (192.168.0.104)
+Retrying OS detection (try #2) against NithinRaj.Dlink (192.168.0.104)
+Retrying OS detection (try #3) against NithinRaj.Dlink (192.168.0.104)
+Retrying OS detection (try #4) against NithinRaj.Dlink (192.168.0.104)
+Retrying OS detection (try #5) against NithinRaj.Dlink (192.168.0.104)
+NSE: Script scanning 192.168.0.104.
+Initiating NSE at 19:31
+Completed NSE at 19:32, 14.27s elapsed
+Initiating NSE at 19:32
+Completed NSE at 19:32, 0.04s elapsed
+Initiating NSE at 19:32
+Completed NSE at 19:32, 0.00s elapsed
+Nmap scan report for NithinRaj.Dlink (192.168.0.104)
+Host is up (0.00050s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.98%E=4%D=10/20%OT=135%CT=1%CU=41339%PV=Y%DS=0%DC=L%G=Y%TM=68F64
+OS:0E3%P=i686-pc-windows-windows)SEQ(SP=103%GCD=2%ISR=108%TI=I%CI=I%II=I%SS
+OS:=S%TS=A)SEQ(SP=104%GCD=1%ISR=10A%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=106%GCD
+OS:=1%ISR=10B%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=106%GCD=1%ISR=10C%TI=I%CI=I%I
+OS:I=I%SS=S%TS=A)SEQ(SP=FF%GCD=1%ISR=109%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MF
+OS:FD7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8S
+OS:T11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN
+OS:(R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80
+OS:%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=
+OS:)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%
+OS:A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%
+OS:DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=
+OS:80%CD=Z)
+
+Uptime guess: 0.163 days (since Mon Oct 20 15:37:58 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2025-10-20T14:01:58
+|_  start_date: N/A
+|_clock-skew: -1s
+
+NSE: Script Post-scanning.
+Initiating NSE at 19:32
+Completed NSE at 19:32, 0.00s elapsed
+Initiating NSE at 19:32
+Completed NSE at 19:32, 0.00s elapsed
+Initiating NSE at 19:32
+Completed NSE at 19:32, 0.00s elapsed
+Read data files from: C:\Users\rapol
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 39.67 seconds
+           Raw packets sent: 1080 (51.090KB) | Rcvd: 2203 (99.542KB)
